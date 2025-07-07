@@ -80,7 +80,7 @@ When deploying to Cloudflare Workers, you'll need to complete a few extra steps 
 
 1. Update `vite.config.ts`
 
-Set the `target` value to `cloudflare-pages` in your `vite.config.ts` file.
+Set the `target` value to `cloudflare-module` in your `vite.config.ts` file.
 
 ```ts
 // vite.config.ts
